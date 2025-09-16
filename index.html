@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentoría Académica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <h1>Mentoría Académica</h1>
+    <p>Apoyo personalizado de profesor a alumno</p>
+  </header>
+
+  <!-- Sección de servicios -->
+  <section class="services">
+    <h2>¿Qué ofrecemos?</h2>
+    <ul>
+      <li>Refuerzo en materias específicas</li>
+      <li>Preparación para exámenes</li>
+      <li>Clases virtuales y presenciales</li>
+      <li>Seguimiento personalizado</li>
+    </ul>
+  </section>
+
+  <!-- Sección de contacto -->
+  <section class="contact">
+    <h2>Solicita tu sesión</h2>
+    <form id="contactForm">
+      <label for="name">Nombre del alumno:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="subject">Materia a reforzar:</label>
+      <input type="text" id="subject" name="subject" required>
+
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="formResponse"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Mentoría Académica. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
